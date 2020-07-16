@@ -1,0 +1,115 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: #eb5266;
+    padding: 30px;
+    text-align: center;
+}
+
+body{
+    background: #dcc8e3;
+}
+
+td{
+  border: 5px solid black;
+  margin:30px;
+  width: 100px;
+  height:100px;
+  text-align: center;
+  font-size: 40px;
+  color: red;
+}
+
+table{
+    margin: 30px;
+    border-collapse: collapse;
+    border-radius:6px;
+}
+
+#board_reset{
+    margin : 0px 0px 20px 20px;
+    padding: 20px 80px 20px 120px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    background-color: green;
+    box-shadow: 0 9px #999;
+    
+}
+
+#board_reset:hover {
+    background: green;
+}
+
+#board_reset:active {
+  background-color: #6a1a91;
+  transform: translateY(6px);
+}
+
+.result{
+    float: left;
+    display: inline-block;
+    color: red;
+}
+
+.dashboard{
+    color: red;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 25px;
+    position: relative;
+    
+}
+
+#x{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#o{
+    position: absolute;
+    top: 0px;
+    left: 44%;
+    color: green;
+}
+#draw{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#xscr{
+    position: absolute;
+    left: 15px;
+    font-size: 35px;
+    bottom: 5px;
+}
+    
+
+#oscr{
+    position: absolute;
+    left: 53%;
+    font-size: 35px;
+    bottom: 5px;
+    color: green;
+}
+
+#drawscr{
+    position: absolute;
+    right: 25px ;
+    bottom: 5px;
+    font-size: 35px;
+}
