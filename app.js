@@ -5,7 +5,7 @@ var list=[one,two,three,four,five,six,seven,eight,nine];
 var game=true;
 var win,lose;
 var name=prompt("Your Name Please :\) :")
-if (name==="null"){
+if (name==="null" || name===""){
     name="User"
 }
 foot.textContent=name+ " vs Roshan"
